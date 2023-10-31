@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-image: url('https://media.istockphoto.com/id/819556270/id/foto/termometer-pada-latar-belakang-alam-hijau-dan-pengukuran-suhu-konsep-lingkungan.jpg?s=612x612&w=0&k=20&c=wBp8uAAN0a99e3pSsHtf1LXr-o1bymucg4XRJA5dr2o=');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container {
+    margin: 100px auto;
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 19px;
+    background-color:#b0d1e6;
+}
+
+#inputTemperature{
+    border: 1px solid black;
+    height: 20px;
+    border-radius: 6px;
+}
+#unit{
+    border: 1px solid black;
+    height: 23px;
+    border-radius: 6px;
+}
+#convertBtn{
+    border: 1px solid black;
+    margin-top: 6px;
+    width: 100px;
+    height: 30px;
+    border-radius: 6px;
+}
+
+.head{
+    font-weight: bolder;
+    color: #150de0;
+}
+

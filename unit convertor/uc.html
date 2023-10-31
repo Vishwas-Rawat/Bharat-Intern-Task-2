@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Temperature Converter</title>
+</head>
+<link rel="stylesheet" href="uc.css">
+<body>
+    <div class="container">
+        <h1>Temperature Converter</h1>
+        <p class="head">Enter a temperature in Celsius or Fahrenheit</p>
+        <input type="text" id="inputTemperature" placeholder="Enter temperature">
+        <select id="unit">
+            <option value="celsius">Celsius</option>
+            <option value="fahrenheit">Fahrenheit</option>
+        </select>
+        <button id="convertBtn" onclick="convertTemperature()">Convert</button>
+        <p id="result"></p>
+    </div>
+    <script src="uc.js"></script>
+</body>
+</html>
